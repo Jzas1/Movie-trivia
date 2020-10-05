@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="score"><p id="score"></p></div>
+      <div class="game-container">
+        <div class="questions" id="questions"></div>
+        <div class="answer" id="answer"></div>
+        <div class="input">
+          <input type="text" id="input" placeholder="Enter answer here" />
+        </div>
+        <div class="hint" id="hint">
+          <p></p>
+        </div>
+
+        <div class="time" id="time"><p>Time:</p></div>
+        <div class="game-over" id="game-over">
+          <p id="endgame"></p>
+          <button id="play-again">Play Again</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="apps.js"></script>
+</html>
